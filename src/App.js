@@ -1,6 +1,10 @@
-function App() {
+import {Users} from "./components";
+
+const App = () => {
   return (
-      <div>Hello world</div>
+      <div>
+        <Users/>
+      </div>
   );
 }
 
